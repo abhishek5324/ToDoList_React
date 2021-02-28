@@ -20,7 +20,7 @@ function App() {
         <h1>To-Do List</h1>
       </div>
       <div className="form">
-        <input onChange={itemInserted} type="text" />
+        <input onChange={itemInserted} type="text" value={inputText} />
         <button onClick={itemAdd}>
           <span>Add</span>
         </button>
